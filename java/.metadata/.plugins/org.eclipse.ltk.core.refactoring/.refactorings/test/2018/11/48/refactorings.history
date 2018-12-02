@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.codingdojo.animal.Mamal.java&apos; to &apos;Mammal.java&apos;&#x0D;&#x0A;- Original project: &apos;test&apos;&#x0D;&#x0A;- Original element: &apos;com.codingdojo.animal.Mamal.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.codingdojo.animal.Mammal.java&apos;" description="Rename compilation unit &apos;Mamal.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.codingdojo.animal{Mamal.java" name="Mammal.java" references="false" stamp="1543438190113" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package com.codingdojo.phone;
+
+public class PhoneTester {
+
+	public static void main(String[] args) {
+	Galaxy	s9=new Galaxy("s9", 11314316, "Tmobile", "ringig");
+	System.out.println("I will be displaying the galaxy info");
+	s9.displayInfo();
+	System.out.println(s9.ring());
+
+	}
+
+}

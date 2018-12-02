@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+<title>Create Dog / Cat</title>
+</head>
+<body>
+	<div class=container>
+	<form action=""></form>
+
+		<div>
+			<h1>create the cat</h1>
+			<form action="/Cats" method="Post">
+				name:<br> <input type="text" name="cname"><br>
+				breed:<br> <input type="text" name="cbreed"> <br>
+				weight:<br> <input type="int" name="cweight"><br>
+				<button>create Cat</button>
+
+			</form>
+		</div>
+		<div>
+			<h1>create the Dog</h1>
+			<form action="/Dogs" method ="post">
+				name:<br> <input type="text" name="name"><br>
+				breed:<br> <input type="text" name="breed"> <br>
+				weight:<br> <input type="int" name="weight"><br>
+				<button>create Dog</button>
+				
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

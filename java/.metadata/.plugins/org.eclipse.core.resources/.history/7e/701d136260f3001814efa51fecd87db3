@@ -1,0 +1,13 @@
+package com.codingdojo.master;
+
+public class Wizard extends Human {
+	 int health =50;
+	 int intelligence =8;
+	 public void heal() {
+		 health = health + intelligence;
+	 }
+	 public void fireball() {
+		 health = health- intelligence*3;
+		 System.out.println("health");
+	 }
+}

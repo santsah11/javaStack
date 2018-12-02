@@ -1,0 +1,5 @@
+package com.codingdojo.master;
+
+public class Wizard extends Human {
+
+}

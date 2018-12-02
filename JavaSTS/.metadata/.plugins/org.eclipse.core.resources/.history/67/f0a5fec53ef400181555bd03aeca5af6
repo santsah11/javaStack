@@ -1,0 +1,21 @@
+package com.codingdojo.calculator;
+import java.util.*;
+
+public class calculator {
+
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner( System.in );
+	 System.out.print( "Type some data for the program: " );
+	 calculator.getResult();
+	}
+	public static void performOperation(double x,double y) {
+		double result = x+y;
+		System.out.println(result);
+		
+	}
+	public static void getResult() {
+	calculator.performOperation(10.5, 5.2);
+	
+	
+	}
+}

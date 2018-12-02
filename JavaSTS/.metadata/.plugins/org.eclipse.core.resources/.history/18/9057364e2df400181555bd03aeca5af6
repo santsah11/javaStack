@@ -1,0 +1,15 @@
+package com.codingdojo.phone;
+
+// this is making the class interface that every one can follow the rules similar manner
+//
+public interface Ringable {
+
+	default void ring() {
+		System.out.println("bell is ringing helo helooo");
+	}
+
+	default void unlock() {
+		System.out.println("you are unlocking the phone");
+	}
+
+}

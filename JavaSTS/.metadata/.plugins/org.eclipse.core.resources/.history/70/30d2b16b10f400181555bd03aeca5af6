@@ -1,0 +1,12 @@
+package com.codingdojo.bankaccount;
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+	BankAccount bk=	new BankAccount();
+	 System.out.print("Printing the all the test from abank account ");
+	System.out.println(accountNumber);
+	 bk.deposite("checking", 1000);
+	}
+	
+}

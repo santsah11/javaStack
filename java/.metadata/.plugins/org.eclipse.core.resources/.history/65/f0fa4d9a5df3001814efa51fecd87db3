@@ -1,0 +1,11 @@
+package com.codingdojo.master;
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		 Human hm=new Human();
+		 hm.attack();
+		  Ninja nj =new Ninja();
+	}
+
+}

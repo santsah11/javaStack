@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>title of CheckBoard</title>
+</head>
+<body>
+	<h1>Check board : 10w *5h </h1>
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+//		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		response.setContentType("text/html");
+		String userName = request.getParameter("name");
+		PrintWriter out  = response.getWriter();
+		
+		out.write("<h1> Hello from "+userName+" </h1>");
+		out.write("Another message from the my Side");
+	}
+
+</body>
+</html>

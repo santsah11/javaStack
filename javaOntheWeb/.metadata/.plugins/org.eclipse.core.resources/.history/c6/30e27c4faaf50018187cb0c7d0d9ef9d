@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import ="com.codingdojo.models.cat";%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Cat page</title>
+</head>
+<body>
+	<h1> This is cat page</h1>
+	
+	
+	
+    <!-- getting the value for the name parameter -->
+    <% String req = request.getParameter("cname"); %>
+    <!-- displaying the value -->
+    <h1><%= req %></h1>
+
+</body>
+</html>

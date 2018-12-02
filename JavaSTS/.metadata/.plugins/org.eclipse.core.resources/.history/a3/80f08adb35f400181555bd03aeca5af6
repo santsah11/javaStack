@@ -1,0 +1,25 @@
+package com.codingdojo.phone;
+
+public class Galaxy  extends Phone implements Ringable{
+
+	public Galaxy(String versionNumber, int batteryPercentage, String carrier, String ringTone) {
+		super(versionNumber, batteryPercentage, carrier, ringTone);
+		// TODO Auto-generated constructor stub
+	}
+
+	  @Override
+	    public String ring() {
+	        return "Galaxy phone is ringing zzzzzzzz";
+	    }
+	    @Override
+	    public String unlock() {
+	        return "Galxy phone only open with pattern Matching";
+	    }
+	
+	@Override
+	public void displayInfo() {
+		
+		
+	}
+
+}

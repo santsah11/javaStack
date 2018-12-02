@@ -1,0 +1,10 @@
+package com.codingdojo.master;
+
+public class Samurai extends Human {
+public	int health=200;
+
+ public void deathBlow(Human otherHuman) {
+	 System.out.println("Other human got killed samurai and reduce her health by half");
+	 this.health = this.health/2;
+ }
+}

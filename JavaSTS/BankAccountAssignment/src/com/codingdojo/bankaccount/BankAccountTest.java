@@ -1,0 +1,21 @@
+package com.codingdojo.bankaccount;
+
+import java.util.Arrays;
+
+public class BankAccountTest {
+
+	public static void main(String[] args) {
+	BankAccount bk=	new BankAccount();
+	BankAccount bk1=	new BankAccount();
+
+	System.out.println(bk.getAccountNumber());
+	
+	bk.deposite("checking", 10000);
+	System.out.println(bk.getCheckingBalance());
+	bk.deposite("saving", 50000);
+	System.out.println(bk.getSavingBalance() + " you have make deposite on this account");
+	System.out.println(BankAccount.totalAmount);
+	bk.withdraw(2000);
+	}
+	
+}

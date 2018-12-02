@@ -1,0 +1,17 @@
+package com.codingdojo.models;
+
+public class cat extends animal implements pet {
+
+	public cat(String name, String breed, int weight) {
+		super(name, breed, weight);
+	
+	}
+		public void showAffection() {
+		System.out.println("printing the show affection method here");
+		this.getName();
+		
+	}
+		public void display() {
+			System.out.println(this.getWeight());
+		}
+}

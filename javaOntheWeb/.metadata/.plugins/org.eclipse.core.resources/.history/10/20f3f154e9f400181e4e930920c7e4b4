@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>title of CheckBoard</title>
+</head>
+<body>
+	<body>
+	<h1>Check board by user size</h1>
+	<!-- getting the value for the name parameter -->
+	
+    <% String ht = request.getParameter("height"); %>
+    <% String wd = request.getParameter("width"); %>
+    
+    <!-- displaying the value -->
+    <h1><%= ht %></h1>
+    <h1><%= wd %></h1>
+</body>
+
+</body>
+</html>

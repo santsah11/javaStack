@@ -1,0 +1,28 @@
+package com.codingdojo.models;
+
+public class animal {
+private	String name ;
+private	String Breed ;
+private	int weight;
+
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getBreed() {
+	return Breed;
+}
+public void setBreed(String breed) {
+	Breed = breed;
+}
+public int getWeight() {
+	return weight;
+}
+public void setWeight(int weight) {
+	this.weight = weight;
+}
+	
+
+}

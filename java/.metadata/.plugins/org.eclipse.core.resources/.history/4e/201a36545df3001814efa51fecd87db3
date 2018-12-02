@@ -1,0 +1,12 @@
+package com.codingdojo.master;
+
+public class Ninja extends Human {
+ int stealth =10;
+ public void steal() {
+	 this.stealth;
+ }
+ public void runAway() {
+	 health = health-10;
+	 System.out.println(health);
+ }
+}

@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>title of CheckBoard</title>
+<style>
+        .color1 {
+            background-color: rgb(98, 0, 255)
+        }
+
+        .color2 {
+            background-color: rgb(234, 234, 247)
+        }
+
+        table tr td {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+
+</head>
+
+	<body>
+	<h1>Check board by user size</h1>
+	
+	
+    <% String ht = request.getParameter("ht"); %>
+    <% String wd = request.getParameter("wd"); %>
+    
+  
+    <h1><%= ht %></h1>
+    <h1><%= wd %></h1>
+    
+</body>
+
+
+
+	<% for(int i =0 ;i<5;i++) { %>
+		<h1><%=i %> </h1>
+		<% } %>
+
+</html>

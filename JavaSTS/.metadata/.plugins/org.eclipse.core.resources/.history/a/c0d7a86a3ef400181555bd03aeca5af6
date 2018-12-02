@@ -1,0 +1,19 @@
+package com.codingdojo.calculator;
+
+public class calculator {
+
+	public static void main(String[] args) {
+
+	calculator.getResult();
+	}
+	public static void performOperation(double x,double y) {
+		double result = x+y;
+		System.out.println(result);
+		
+	}
+	public static void getResult() {
+	calculator.performOperation(10.5, 5.2);
+	
+	
+	}
+}

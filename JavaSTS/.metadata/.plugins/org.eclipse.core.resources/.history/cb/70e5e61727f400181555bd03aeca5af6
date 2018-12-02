@@ -1,0 +1,7 @@
+package com.codingdojo.phone;
+
+// this is making the class interface that every one can follow the rules similar manner
+public interface Ringable {
+	
+
+}

@@ -1,0 +1,91 @@
+package com.codingdojo.bankaccount;
+import java.util.*;
+
+public class BankAccount {
+
+	public int accountNumber;
+
+	private double checkingBalance;
+	private double savingBalance;
+
+	public double getCheckingBalance() {
+		
+		return checkingBalance;
+	}
+
+	public double getSavingBalance() {
+		return savingBalance;
+	}
+
+	public void setCheckingBalance(double checkingBalance) {
+		this.checkingBalance = checkingBalance;
+	}
+
+	public void setSavingBalance(double savingBalance) {
+		this.savingBalance = savingBalance;
+	}
+
+	private static int  numbersOfAccount = 0;
+	public static double totalAmount =0;
+
+	public static int AccountCount() {
+		numbersOfAccount++;
+		System.out.println(numbersOfAccount);
+		return numbersOfAccount;
+
+	}
+
+	private [] int  randomNuber() {
+		Random rand = new Random();
+		int randomNum = 0;
+		int[] account;
+		for (int i = 0; i < 10; i++) {
+			randomNum = (rand.nextInt(10) + 0);
+			
+		}
+		return randomNm;
+	}
+
+	public  BankAccount() {
+		accountNumber = this.randomNuber();
+		this.AccountCount();
+
+	}
+
+	public  double deposite( String  wichAccount ,double depositAmount) {
+
+		if (wichAccount =="checking" || wichAccount =="Saving") {
+			if(wichAccount =="checking") {
+				this.checkingBalance = this.checkingBalance  + depositAmount;
+			}
+			if (wichAccount=="saving") {
+				this.savingBalance =this.savingBalance+ depositAmount;
+			}
+
+		}else {
+			System.out.print("Did not amke any Deposit");
+			System.out.println();
+		}
+
+
+
+		return this.totalAmount;
+	}
+
+	public double withdraw( double withd) {
+		if (withd > this.checkingBalance) {
+			System.out.println("we are afraid to say that you donot have enogh money");
+		}else {
+			checkingBalance=  checkingBalance-withd;
+			System.out.print("here is you money sir and madam");
+			System.out.println("hello");
+		}
+
+		return this.totalAmount;
+	}
+
+}
+
+
+
+

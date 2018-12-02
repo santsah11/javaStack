@@ -1,0 +1,14 @@
+package com.codingdojo.animal;
+ int energyLevel =300;
+public class Bat {
+
+	public void fly() {
+		
+	}
+public void eatHumans() {
+		
+	}
+public void attackTown() {
+	
+}
+}
